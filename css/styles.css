@@ -1,0 +1,155 @@
+body,
+html {
+    width: 100%;
+	height: 100%;
+}
+
+header{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav{
+    color: #FFF;
+    float: right;
+    margin:30px 90px;
+  }
+  nav ul{
+    list-style: none;
+  }
+  nav ul li {
+    float: left;
+    transition: .3s;
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #EFEEF5;
+    transition: .5;
+    font-size: 15px;
+    margin-left:16px;
+  }
+  nav ul li:hover a{
+    text-decoration: none;
+    background: linear-gradient(
+      270deg, #ff0066, #3f3f3f
+    );
+    color: #ffffff;;
+    text-shadow: 0.5px -6px 6px rgb(252, 255, 47)
+  }
+  nav ul li:hover{
+    height: 25px;
+    padding-top: -25px;
+    margin-top: -25px;
+   background: rgb(255, 91, 214);
+   box-shadow: 3px 6px 6px #333;
+    text-decoration: none;
+    transform: skew(15deg);
+  }
+  
+bg {
+	color:black;
+	background-color: black;
+}
+
+body, p {
+	color: #53575a; 
+	font: 400 1rem/1.625rem "Open Sans", sans-serif;
+}
+
+h1 {
+	color: #2b2b4f;
+	font-weight: 600;
+	font-size: 2.5rem;
+	line-height: 3.25rem;
+	font-family: "Poppins"
+}
+
+h2 {
+	color: #2b2b4f;
+	font-weight: 600;
+	font-size: 2rem;
+	line-height: 2.5rem;
+	font-family: "Poppins"
+}
+
+h3 {
+	color: #2b2b4f;
+	font-weight: 600;
+	font-size: 1.75rem;
+	line-height: 2.25rem;
+	font-family: "Poppins"
+}
+
+h4 {
+	color: #2b2b4f;
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	font-family: "Poppins"
+}
+
+h5 {
+	color: #2b2b4f;
+	font-weight: 600;
+	font-size: 1.25rem;
+	line-height: 1.625rem;
+	font-family: "Poppins"
+}
+
+h6 {
+	color: #2b2b4f;
+	font-weight: 600;
+	font-size: 1rem;
+	line-height: 1.375rem;
+	font-family: "Poppins"
+}
+
+.bg-gray {
+	background-color: #7ba7ff;
+}
+
+/* anunya */
+.header {
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	background: url('https://i2.wp.com/blog.tripcetera.com/id/wp-content/uploads/2019/09/wisatasemarang_65777334_696426184114195_7232621898230216037_n.jpg') center center no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.header .h1-large {
+	margin-bottom: 2.5rem;
+	color: #201c1c;
+	font-size: 4rem;
+	line-height: 4.5rem;
+}
+
+.header .btn-solid-lg {
+	display: block;
+	margin-bottom: 1.375rem;
+}
+
+.header .btn-outline-lg {
+	display: block;
+	border-color: #ffffff;
+	color: #ffffff;
+}
+
+.header .btn-outline-lg:hover {
+	background-color: #ffffff;
+	color: #444444;
+}
+
+/* kedua */
+.basic-1 {
+	padding-top: 9.5rem;
+	padding-bottom: 9rem;
+}
+
+.basic-1 h1 {
+	margin-bottom: 2.5rem;
+}

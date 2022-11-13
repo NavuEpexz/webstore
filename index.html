@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-signin-client_id" content="YOUR_CLIENT_ID.apps.googleusercontent.com">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css"
+</head>
+
+<body>
+  <audio hidden autoplay>
+  <source src="Chinese speaking meme.mp3" type="audio/mpeg">
+  </audio>
+
+    <div id="login-box">
+    <div class="left-box">
+         <h1 style="color:rgb(255, 62, 62)">SignUp</h1>
+         <form action="main-menu.html">
+        <input type="text" id="username" name="username" required placeholder="Full Name"/>
+        <input type="password" name="email" required placeholder="Password"/>
+       <input type="text" name="password" required placeholder="Gender"/>
+        <p style="color: rgb(116, 116, 116)" required placeholder>
+            Bithday :
+        <input style="color: #000000"type="date" name="password" placeholder="Age"/>
+        <br>
+        <br>
+        <br>
+        <a href="main-menu.html"/> <input type="submit" name="signup-button" required value="Submit" required/>
+        </form>
+    </div> 
+
+</a>
+    <div class="right-box">
+        <span class="signinwith"> Log-in Here <br><center><br><br><br><br><br></center></span>
+        <button id="myBtn" class="social google"> Auto Login With Google+ </button>
+       
+        <div id="myModal" class="modal">
+        
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>this feature is not available yet, please try next time</p>
+        </div>
+    </div>
+
+    <script>
+        var modal = document.getElementById("myModal");
+        
+        var btn = document.getElementById("myBtn");
+        
+        var span = document.getElementsByClassName("close")[0];
+      
+        btn.onclick = function() {
+          modal.style.display = "block";
+        }
+        
+        span.onclick = function() {
+          modal.style.display = "none";
+        }
+        
+        window.onclick = function(event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+        </script>
+    
+    <div class="or"> Or </div>
+    </div>
+</body>
+</html>

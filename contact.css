@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #6085ff;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+
+
+#login-box {
+    position: relative;
+    height: 475px;
+    margin: 5% auto;
+    width: 600px;
+    margin: 5% auto;
+    background: #ffb968;
+    box-shadow: 11px 10px 10px rgb(75, 219, 255);
+}
+
+.left-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 400px;
+}
+
+h1 {
+    position: center;
+    margin: 0 0 10px 0;
+    font-weight: 0;
+    font-size: 64px;
+    text-shadow: 5px 4px 7px rgb(255, 53, 86);
+}
+
+input[type="text"],
+input[type="password"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 510px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid rgb(51, 2, 2);
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    transition: 0.25 ease;
+    background-color: #ffb968;
+}
+
+input[type="submit"] {
+    margin-bottom: 28px;
+    width: 120px;
+    height: 32px;
+    background: #fc3052;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0, 2s ease;
+    cursor: pointer;
+    box-shadow: 6px 9px 9px #a10909;
+}
+
+input[name="back-button"] {
+    position: absolute;
+    width: 120px;
+    height: 32px;
+    background: #fc3052;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0, 2s ease;
+    cursor: pointer;
+    box-shadow: 6px 9px 9px #a10909;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background: #fc7030;
+    transition: 0.2s ease;
+}
